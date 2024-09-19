@@ -1,4 +1,4 @@
-// File: /Users/FDSAP-PMLBONDAD/Documents/last-next-app/app/dashboard/profile/page.tsx
+// File: /Users/FDSAP-FAVTRILLANA/Documents/test_next/app/dashboard/profile/page.tsx
 import * as entry from '../../../../../app/dashboard/profile/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

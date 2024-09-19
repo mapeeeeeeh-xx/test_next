@@ -9,6 +9,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
       <aside className='w-64 bg-gray-800 text-white p-6'>
         <div className='text-xl font-bold mb-8'>Dashboard</div>
         
+        {/* h */}
         <nav className='space-y-4'>
           <Link href="/dashboard" className='block text-gray-200 hover:text-white'>
             Overview
