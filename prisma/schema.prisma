@@ -13,3 +13,7 @@ model User {
   username  String @unique @db.VarChar()
   password  String @db.VarChar()
 }
+
+model AddtoCart {
+  id id    Int    @id @default(autoincrement())
+}

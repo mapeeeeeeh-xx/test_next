@@ -1,17 +1,4 @@
 {
-  "/register/page": "app/register/page.js",
-<<<<<<< HEAD
-  "/api/register/route": "app/api/register/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/login/route": "app/api/login/route.js",
-  "/dashboard/profile/page": "app/dashboard/profile/page.js",
-  "/dashboard/settings/page": "app/dashboard/settings/page.js",
-  "/login/page": "app/login/page.js",
-=======
-  "/dashboard/settings/page": "app/dashboard/settings/page.js",
-  "/login/page": "app/login/page.js",
-  "/dashboard/profile/page": "app/dashboard/profile/page.js",
->>>>>>> peter
-  "/dashboard/reports/page": "app/dashboard/reports/page.js",
-  "/dashboard/page": "app/dashboard/page.js"
+  "/page": "app/page.js",
+  "/(pages)/login/page": "app/(pages)/login/page.js"
 }

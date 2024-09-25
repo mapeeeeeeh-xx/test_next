@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma"; // Adjust the path as needed
+import prisma from "@/app/api/lib/prisma"; // Adjust the path as needed
 import bcrypt from "bcrypt"; // Corrected import name
+
 import {
+  ResponseWModelInterface,
   ResponseWoModelInterface,
   UserRegisterCreds,
-  ResponseWModelInterface,
-  ResponseWModel,
-} from "@/lib/interfaces";
+} from "@/app/api/lib/interfaces";
+import { ResponseWModel, ResponseWoModel } from "@/app/api/lib/errorModel";
 
 export async function POST(req: Request) {
   try {
@@ -67,8 +68,4 @@ export async function POST(req: Request) {
     );
     return NextResponse.json(res, { status: 500 });
   }
-}
-
-function ResponseWoModel(arg0: string, arg1: string): ResponseWoModelInterface {
-  throw new Error("Function not implemented.");
 }
